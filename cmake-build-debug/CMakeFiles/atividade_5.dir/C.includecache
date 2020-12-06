@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Harley Junior/CLionProjects/lab1-comp_conc/atividade_5/main.c
+stdio.h
+-
+stdlib.h
+-
+pthread.h
+-
+
