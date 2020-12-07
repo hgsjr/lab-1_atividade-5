@@ -86,6 +86,10 @@ int main() {
             exit(-1);
         }
     }
+
+    free(args[0]);
+    free(args[1]);
+
     printf("\n");
 
     //bloco que exibe o novo vetor com suas posições incrementadas
